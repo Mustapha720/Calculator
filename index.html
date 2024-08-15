@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <marquee behavior="" direction="">GOD IS GOOD</marquee> -->
+    <!-- <marquee behavior="" direction="">GOD IS GOOD</marquee> -->
+    <div id="Display" style="background-color: black;">
+        <h1 style="color: white;">Calculator</h1>
+        <div id="displayNumber">0</div>
+        <button onclick="clearButton()" class="div">C</button>
+        <button onclick="backSpace()" class="div">⌫</button>
+        <div>
+            <button onclick="showNumber(7)" class="div">7</button>
+            <button onclick="showNumber(9)" class="div">9</button>
+            <button onclick="showNumber(8)" class="div">8</button>
+            <button onclick="showNumber('*')" class="div">*</button>
+        </div>
+        <div>
+            <button onclick="showNumber(4)" class="div">4</button>
+            <button onclick="showNumber(5)" class="div">5</button>
+            <button onclick="showNumber(6)" class="div">6</button>
+            <button onclick="showNumber('-')" class="div">-</button>
+        </div>
+        <div>
+            <button onclick="showNumber(1)" class="div">1</button>
+            <button onclick="showNumber(2)" class="div">2</button>
+            <button onclick="showNumber(3)" class="div">3</button>
+            <button onclick="showNumber('+')" class="div">+</button>
+        </div>
+        <div>
+            <button onclick="showNumber('/')" class="div">/</button>
+            <button onclick="showNumber(0)" class="div">0</button>
+            <button onclick="showNumber('.')" class="div">.</button>
+            <button onclick="calculate()" class="div" style="background-color: orange;">=</button>
+        </div>
+    </div>
+
+    <div>
+        <button onclick="dark()" id="darkMode">Dark Mode</button>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
